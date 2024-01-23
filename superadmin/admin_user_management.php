@@ -15,7 +15,7 @@ $users = $admins->getAdmins();
         <h1 class="h3 mb-3">User Management</h1>
         <form action="../controller/admin_user_add.php" method="POST">
             <div class="user user-card d-flex justify-content-start flex p-2 gap-3">
-                <!-- <div class="user user-item w-50">
+                <div class="user user-item w-50">
                     <div class="card">
                         <div class="card-body">
                             <h4>Add User</h4>
@@ -53,7 +53,7 @@ $users = $admins->getAdmins();
                                 Admin</button>
                         </div>
                     </div>
-                </div> -->
+                </div> 
                 <div class="user user-item w-100">
                     <table class="table table-hover">
                         <th>ID Number</th>
